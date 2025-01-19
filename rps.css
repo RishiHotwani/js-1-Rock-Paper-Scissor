@@ -1,0 +1,104 @@
+.title{
+   font-family: Impact, 'Arial Narrow Bold', ;
+    display: flex;
+   padding-top: 200px;
+   padding-left: 45px;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   color: white; 
+   font-size: 40px ;
+}
+.buttons{ 
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 60px; 
+color: rgb(249, 249, 249);
+border: none;
+
+} 
+
+.button-1{
+    background-color: black;
+}
+
+.button-1:hover {
+        transform: scale(1.7); /* Slight zoom on hover */
+        box-shadow: 10 8px 15px #030102; /* Glow effect */
+      }
+
+.button-2:hover{
+        transform: scale(1.7); /* Slight zoom on hover */
+        box-shadow: 10 8px 15px rgb(101, 49, 197); /* Glow effect */
+      }
+
+
+.button-3:hover{
+        transform: scale(1.7); /* Slight zoom on hover */
+       box-shadow: 10 8px 15px rgb(67, 91, 184); /* Glow effect */
+}
+*{
+    font-family: 'Nunito'; 
+    
+    
+} 
+
+body{
+    background-color: black;
+}
+
+
+.nunito-regular {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.smooch-sans-regular {
+  font-family: "Smooch Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+#scoreboard {
+    text-align: center ;
+    padding: 10px;
+    border: 2px solid #5f5757;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 0px; 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+  margin: 0; 
+  box-shadow: 10px 10px 10px #3b6aec; 
+  color: white;
+  background-color: rgb(1, 1, 1);
+  } 
+
+#score1{
+    background-color: rgb(14, 14, 67)
+}
+  
+  #scoreboard h2 {
+    margin: 5px; 
+    
+  }
+
+  #score2{
+    background-color: rgb(17, 9, 67);
+  }
+  
+  #scoreboard p {
+    margin: 5px;
+    font-size: 18px;
+  }
+  
